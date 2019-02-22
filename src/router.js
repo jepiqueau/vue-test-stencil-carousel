@@ -12,10 +12,10 @@ export default new Router({
       component: Home
     },
     {
-      path: "/linechart/:type",
-      name: "linechart",
+      path: "/carousel/:type",
+      name: "carousel",
       component: () =>
-        import(/* webpackChunkName: "linechart" */ "./views/LineChart.vue")
+        import(/* webpackChunkName: "carousel" */ "./views/Carousel.vue")
     },
     {
       path: "/about",

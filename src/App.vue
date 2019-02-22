@@ -8,33 +8,40 @@ export default {
 </script>
 <style>
 :root {
-  --chart-width: 100%;
-  --chart-height: 400px;
-  --chart-top: 0px;
-  --chart-left: 0px;
-  --chart-background-color: #ffffff;
-  --chart-axis-color: #000000;
-  --chart-font-family: Verdana;
-  --chart-label-font-size: 10px;
-  --chart-title-color: #000000;
-  --chart-title-font-size: 25px;
-  --chart-subtitle-color: #000000;
-  --chart-subtitle-font-size: 20px;
-  --chart-axis-title-color: #000000;
-  --chart-axis-title-font-size: 15px;
-  --chart-line-color: #4ba96e;
-  --chart-label-color: #000000;
-  --chart-tick-x-length: 5px;
-  --chart-tick-y-length: 4px;
-  --chart-grid-x: false;
-  --chart-axis-x-zero: false;
-  --chart-axis-y-zero: false;
-  --chart-axis-x-interval: 20;
-  --chart-axis-y-interval: 50;
-  --chart-animation-duration: 1s;
-  --chart-legend-font-size: 12px;
-  --chart-legend-top: true;
-  --chart-border-color: #000000;
-  --chart-border-width: 4;
+  --container-background-color: #888888;
+  --swiper-container-position: relative;
+  --swiper-container-top: 56px;
+  --swiper-container-left: auto;
+  --swiper-container-width: 100%;
+  --swiper-container-height: calc(100% - var(--swiper-container-top));
+  --swiper-slide-color: #000;
+  --swiper-slide-width: 100%;
+  --swiper-slide-height: 100%;
+  --swiper-slide-top: auto;
+  --swiper-slide-align-items: center;
+  --swiper-slide-justify-content: center;
+  --swiper-slide-text-align: center;
+  --swiper-slide-display: flex;
+  --swiper-slide-flex-direction: column;
+  --swiper-slide-padding: 0;
+  --swiper-slide-box-sizing: border-box;
+  --navigation-next-background: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20512%20512%22%3E%3Cpath%20d=%22M48%20256c0%20114.9%2093.1%20208%20208%20208s208-93.1%20208-208S370.9%2048%20256%2048%2048%20141.1%2048%20256zm244.5%200l-81.9-81.1c-7.5-7.5-7.5-19.8%200-27.3s19.8-7.5%2027.3%200l95.4%2095.7c7.3%207.3%207.5%2019.1.6%2026.6l-94%2094.3c-3.8%203.8-8.7%205.7-13.7%205.7-4.9%200-9.9-1.9-13.6-5.6-7.5-7.5-7.6-19.7%200-27.3l79.9-81z%22/%3E%3C/svg%3E");
+  --navigation-prev-background: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20512%20512%22%3E%3Cpath%20d=%22M256%2048C141.1%2048%2048%20141.1%2048%20256s93.1%20208%20208%20208%20208-93.1%20208-208S370.9%2048%20256%2048zm43.4%20289.1c7.5%207.5%207.5%2019.8%200%2027.3-3.8%203.8-8.7%205.6-13.6%205.6s-9.9-1.9-13.7-5.7l-94-94.3c-6.9-7.6-6.7-19.3.6-26.6l95.4-95.7c7.5-7.5%2019.7-7.6%2027.3%200%207.5%207.5%207.6%2019.7%200%2027.3l-81.9%2081%2079.9%2081.1z%22/%3E%3C/svg%3E");
+  --navigation-height: 8vmax;
+  --navigation-width: 8vmax;
+  --bullet-diameter: 3vmax;
+  --bullet-background: #f034f7;
+  --bullet-opacity: 0.5;
+  --bullet-active-background: #ff8000;
+  --bullet-active-opacity: 1;
+  --swiper-slide-display: flex;
+  --swiper-slide-align-items: center;
+  --swiper-slide-justify-content: center;
+  --gallery-thumbs-height: 20%;
+  --gallery-thumbs-width: 20%;
+  --gallery-thumbs-opacity: 0.4;
+  --gallery-thumbs-padding: 10px 0;
+  --gallery-thumbs-top: 80%;
+  --gallery-thumbs-background-color: #eeeeee;
 }
 </style>

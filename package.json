@@ -1,5 +1,5 @@
 {
-  "name": "vue-test-linechart",
+  "name": "vue-test-carousel",
   "version": "0.1.6",
   "private": true,
   "scripts": {
@@ -11,13 +11,11 @@
     "Vue",
     "stencil",
     "web component",
-    "chart",
-    "line chart"
+    "carousel",
+    "swiper"
   ],
   "dependencies": {
-    "@ionic/core": "^4.0.0-rc.0",
-    "@ionic/vue": "0.0.1",
-    "stencil-linechart": "^0.1.9",
+    "stencil-carousel": "0.0.5-10",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
@@ -34,12 +32,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jepiqueau/vue-test-stencil-line-chart.git"
+    "url": "git+https://github.com/jepiqueau/vue-test-stencil-carousel.git"
   },
   "author": "Jean Pierre Quéau",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jepiqueau/vue-test-stencil-line-chart/issues"
+    "url": "https://github.com/jepiqueau/vue-test-stencil-carousel/issues"
   },
-  "homepage": "https://github.com/jepiqueau/vue-test-stencil-line-chart#readme"
+  "homepage": "https://github.com/jepiqueau/vue-test-stencil-carousel#readme"
 }
