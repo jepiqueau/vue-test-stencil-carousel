@@ -1,13 +1,9 @@
 <template>
-  <ion-app>
+  <div class="ion-page">
     <ion-header>
       <ion-toolbar color="light">
         <ion-buttons slot="start">
-          <!--
-                *** does not work
-            <ion-back-button defaultHref="/"></ion-back-button>
-            -->
-          <ion-button @click="goBackHome()" size="small">Back</ion-button>
+          <ion-back-button defaultHref="/"></ion-back-button>
         </ion-buttons>
         <ion-title>Carousel {{ this.type }}</ion-title>
       </ion-toolbar>
@@ -92,7 +88,7 @@
         </jeep-carousel>
       </template>
     </ion-content>
-  </ion-app>
+  </div>
 </template>
 
 <script>
@@ -102,12 +98,6 @@ export default {
     return {
       type: this.$route.params.type
     };
-  },
-  methods: {
-    goBackHome: function() {
-      this.$router.push("/");
-      location.reload();
-    }
   }
 };
 </script>
