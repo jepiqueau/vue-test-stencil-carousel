@@ -13,12 +13,12 @@
       <template v-if="this.type === 'basichorizontal'">
         <jeep-carousel
           data='{"slides":[
-          {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/image_s1.jpg\" alt=\"deer\"></img>"]},
-          {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/image_s2.jpg\" alt=\"elephant\"></img>"]},
-          {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/image_s3.jpg\" alt=\"tiger\"></img>"]},
-          {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/image_s4.jpg\" alt=\"lion\"></img>"]},
-          {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/image_s5.jpg\" alt=\"eagle\"></img>"]},
-          {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/image_s6.jpg\" alt=\"eagle head\"></img>"]}
+            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/deerl.jpg\" alt=\"deer\"></img>"]},
+            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/elephantl.jpg\" alt=\"elephant\"></img>"]},
+            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/tigerl.jpg\" alt=\"tiger\"></img>"]},
+            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/lionl.jpg\" alt=\"lion\"></img>"]},
+            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/eaglel.jpg\" alt=\"eagle\"></img>"]},
+            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/eagleheadl.jpg\" alt=\"eagle head\"></img>"]}
           ]}'
           cstyle=".image {width: auto;max-width: 100%;height: auto;max-height: 100%;}"
         >
@@ -27,12 +27,12 @@
       <template v-if="this.type === 'basicvertical'">
         <jeep-carousel
           data='{"slides":[
-          {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/image_s1.jpg\" alt=\"deer\"></img>"]},
-          {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/image_s2.jpg\" alt=\"elephant\"></img>"]},
-          {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/image_s3.jpg\" alt=\"tiger\"></img>"]},
-          {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/image_s4.jpg\" alt=\"lion\"></img>"]},
-          {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/image_s5.jpg\" alt=\"eagle\"></img>"]},
-          {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/image_s6.jpg\" alt=\"eagle head\"></img>"]}
+            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/deerl.jpg\" alt=\"deer\"></img>"]},
+            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/elephantl.jpg\" alt=\"elephant\"></img>"]},
+            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/tigerl.jpg\" alt=\"tiger\"></img>"]},
+            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/lionl.jpg\" alt=\"lion\"></img>"]},
+            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/eaglel.jpg\" alt=\"eagle\"></img>"]},
+            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/eagleheadl.jpg\" alt=\"eagle head\"></img>"]}
           ]}'
           cstyle=".image {width: auto;max-width: 100%;height: auto;max-height: 100%;}"
           options='{"direction":"vertical"}'
@@ -42,12 +42,12 @@
       <template v-if="this.type === 'paginationnavigationhorizontal'">
         <jeep-carousel
           data='{"slides":[
-            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/image_s1.jpg\" alt=\"deer\"></img>"]},
-            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/image_s2.jpg\" alt=\"elephant\"></img>"]},
-            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/image_s3.jpg\" alt=\"tiger\"></img>"]},
-            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/image_s4.jpg\" alt=\"lion\"></img>"]},
-            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/image_s5.jpg\" alt=\"eagle\"></img>"]},
-            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/image_s6.jpg\" alt=\"eagle head\"></img>"]}
+            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/deerl.jpg\" alt=\"deer\"></img>"]},
+            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/elephantl.jpg\" alt=\"elephant\"></img>"]},
+            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/tigerl.jpg\" alt=\"tiger\"></img>"]},
+            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/lionl.jpg\" alt=\"lion\"></img>"]},
+            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/eaglel.jpg\" alt=\"eagle\"></img>"]},
+            {"slide":["<img class=\"image\" src=\"https://jeepcomponentsviewme.firebaseapp.com/assets/images/eagleheadl.jpg\" alt=\"eagle head\"></img>"]}
           ]}'
           cstyle=".image {width: 75%;max-width: 100%;height: auto;max-height: 100%;}"
           options='{"direction":"horizontal",
